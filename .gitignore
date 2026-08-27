@@ -1,0 +1,15 @@
+# Installers belong in GitHub Release assets, never in Git history.
+*.exe
+*.msi
+
+# Never publish local runtime or sensitive artifacts.
+*.log
+*.env
+*.pem
+*.key
+*.onnx
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth

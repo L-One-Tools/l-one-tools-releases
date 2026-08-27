@@ -1,0 +1,47 @@
+{
+  "product": "L-1 File To Text",
+  "publisher": "L-One",
+  "version": "2.0.7",
+  "artifacts": [
+    {
+      "name": "CHANGELOG.md",
+      "bytes": 995,
+      "sha256": "9c463e58a2c8a9009061a704c937a9d1e679af4b7b26053757b88b3c9174a69b"
+    },
+    {
+      "name": "L-1 File To Text Setup v2.0.7.exe",
+      "bytes": 176378304,
+      "sha256": "5d51c4f462688c51218f6be1b7931ef09ffb7d6aa08b95d7f9dcebbd9fbe06c7"
+    },
+    {
+      "name": "MODEL_SOURCES.md",
+      "bytes": 1286,
+      "sha256": "2f4844d62b8db6c7c0df4995b90174099c864de5bfcfa83f5c84dd91a94bf10e"
+    },
+    {
+      "name": "PRIVACY.md",
+      "bytes": 2447,
+      "sha256": "9f6fc3de34d3e9b34023b97c83c5f4253abd185deee79a7a13701bc1de51c10a"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1813,
+      "sha256": "60d0296a678dda61867e1d615252d82be840bc52058df9c57b264ee98afe59e8"
+    },
+    {
+      "name": "RELEASE_MANIFEST.md",
+      "bytes": 2406,
+      "sha256": "7429ab41841f89cd0fc9aec31c49e7512b0757983ac6880f02e5bd7508b7bc6b"
+    },
+    {
+      "name": "SBOM.json",
+      "bytes": 198582,
+      "sha256": "0b53030c7acca83e8c4101ce5676d09b10f22092abbd9e948ef85990d20b1b3e"
+    },
+    {
+      "name": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3164,
+      "sha256": "ac66f7ea3ebf1df34b171a6cd84fca1bec8a873703f6559371f09acb4b80ad64"
+    }
+  ]
+}

@@ -10,24 +10,24 @@
 
 | 工具 | 版本 | Windows | 版本资料 | 下载 |
 |---|---:|---|---|---|
-| L-1 File To Text | 2.0.7 | Windows 10/11 64 位 | [2.0.7 版本资料](l-1-file-to-text/2.0.7_2026-08-27/) | [GitHub Release](https://github.com/L-One-Tools/l-one-tools-releases/releases/tag/l-1-file-to-text-v2.0.7) |
+| L-1 File To Text | 2.0.8 | Windows 10/11 64 位 | [2.0.8 版本资料](l-1-file-to-text/2.0.8_2026-08-27/) | [GitHub Release](https://github.com/L-One-Tools/l-one-tools-releases/releases/tag/l-1-file-to-text-v2.0.8) |
 
 ## 下载与校验
 
 请只从上表对应的 GitHub Release 下载安装包。下载后在 PowerShell 执行：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath '.\L-1 File To Text Setup v2.0.7.exe'
+Get-FileHash -Algorithm SHA256 -LiteralPath '.\L-1 File To Text Setup v2.0.8.exe'
 ```
 
-2.0.7 安装包的预期 SHA-256：
+2.0.8 安装包的预期 SHA-256：
 
 ```text
-5D51C4F462688C51218F6BE1B7931EF09FFB7D6AA08B95D7F9DCEBBD9FBE06C7
+0B4080D6CF4FB9B47FA230CB8AC3C14A37C7202BEDC266869EE8BBEDB71418D8
 ```
 
 哈希不一致时请停止安装，并从官方 Release 重新下载。
 
 ## 撤回与回退
 
-如发现校验异常、下载异常或安全/隐私风险，相关 Release 将被标记并停止继续分发。当前 2.0.7 是首个公开版本，没有公开旧版可供降级；用户可先卸载程序，卸载不会自动删除用户选择的模型目录和输出文件。替代或恢复版本只会在本仓库发布。
+如发现校验异常、下载异常或安全/隐私风险，相关 Release 将被标记并停止继续分发。2.0.8 是当前正式版本；2.0.7 仅保留历史记录，不再作为推荐下载。用户可先卸载程序，卸载不会自动删除用户选择的模型目录和输出文件。替代或恢复版本只会在本仓库发布。

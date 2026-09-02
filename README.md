@@ -11,7 +11,7 @@
 | 工具 | 版本 | Windows | 版本资料 | 下载 |
 |---|---:|---|---|---|
 | L-1 File To Text | 2.0.8 | Windows 10/11 64 位 | [2.0.8 版本资料](l-1-file-to-text/2.0.8_2026-08-27/) | [GitHub Release](https://github.com/L-One-Tools/l-one-tools-releases/releases/tag/l-1-file-to-text-v2.0.8) |
-| L-1 网页拓印 | v0.2.2 公开内测 | Chrome 116+ | [v0.2.2 版本资料](l-1-web-imprint/0.2.2_2026-09-03/) | 发布后以对应 Release 为准 |
+| L-1 网页拓印 | v0.2.2 公开内测 | Chrome 116+ | [v0.2.2 版本资料](l-1-web-imprint/0.2.2_2026-09-03/) | [GitHub Release](https://github.com/L-One-Tools/l-one-tools-releases/releases/tag/l-1-web-imprint-v0.2.2) |
 
 “公开内测”不是正式稳定版。请先阅读版本资料中的支持范围、隐私说明与已知限制。
 

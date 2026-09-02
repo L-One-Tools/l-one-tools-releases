@@ -44,3 +44,7 @@ FB9441ED595E24E6A6B9E8DD3D994E353B412FA22EFC44C923AD7E7D499DF055
 ## 移除与回退
 
 打开 `chrome://extensions`，找到“L-1 网页拓印”，选择“移除”。如本版本被撤回，请停止使用、移除扩展，并以仓库中标记为可用的后续版本为准。
+
+## 反馈
+
+请通过 [v0.2.2 公开内测反馈](https://github.com/L-One-Tools/l-one-tools-releases/issues/3) 提交已脱敏的问题说明。不要提交密码、付款信息、私人页面内容、Cookie、浏览历史、完整长图或录屏。

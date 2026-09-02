@@ -1,6 +1,7 @@
 # Installers belong in GitHub Release assets, never in Git history.
 *.exe
 *.msi
+*.zip
 
 # Never publish local runtime or sensitive artifacts.
 *.log

@@ -1,0 +1,16 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5a3086d6-a3a6-4f20-97c5-5ce76414a222",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "L-1 网页拓印",
+      "version": "0.2.2",
+      "description": "Chrome 浏览器扩展公开内测包"
+    }
+  },
+  "components": [],
+  "dependencies": []
+}

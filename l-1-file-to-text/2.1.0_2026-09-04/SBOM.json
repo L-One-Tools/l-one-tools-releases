@@ -1,0 +1,4798 @@
+{
+  "$schema": "https://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:dad1e8b6-0a34-51d3-ad5f-2712bb0a9bb9",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-04T09:34:20.850359Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "pkg:generic/l-1-file-to-text@2.1.0%20%E5%85%AC%E5%BC%80%E5%86%85%E6%B5%8B%E7%89%88",
+      "name": "L-1 File To Text",
+      "version": "2.1.0 公开内测版"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/aliyun-python-sdk-core@2.16.1",
+      "name": "aliyun-python-sdk-core",
+      "version": "2.16.1",
+      "purl": "pkg:pypi/aliyun-python-sdk-core@2.16.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "aliyun_python_sdk_core-2.16.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/aliyun_python_sdk_core-2.16.1.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d9a43486d838ec9fec593ef1199bfbc017140538bcc94b8c877f425d802ccbef"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License 2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/aliyun/aliyun-openapi-python-sdk"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/aliyun-python-sdk-kms@2.16.5",
+      "name": "aliyun-python-sdk-kms",
+      "version": "2.16.5",
+      "purl": "pkg:pypi/aliyun-python-sdk-kms@2.16.5",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "aliyun_python_sdk_kms-2.16.5.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/aliyun_python_sdk_kms-2.16.5.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0b508689a5997fd692ca7e75d516691a1ee18e9bcf5dc07c8c695a53bfdcd78c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://develop.aliyun.com/sdk/python"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/altgraph@0.17.5",
+      "name": "altgraph",
+      "version": "0.17.5",
+      "purl": "pkg:pypi/altgraph@0.17.5",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "altgraph-0.17.5.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/altgraph-0.17.5.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dc60641dba229a3aef09f764f562c38d908b930c92615af2e626af31d6ff19b5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://altgraph.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://altgraph.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/ronaldoussoren/altgraph/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/ronaldoussoren/altgraph"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/annotated-doc@0.0.5",
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "purl": "pkg:pypi/annotated-doc@0.0.5",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "annotated_doc-0.0.5.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/annotated_doc-0.0.5.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8c24d70c5d9153d22123353a906042fd7603df2d15c2196290b0f8a962558c46"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/fastapi/annotated-doc"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fastapi/annotated-doc"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/fastapi/annotated-doc"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fastapi/annotated-doc/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fastapi/annotated-doc/release-notes.md"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/anyio@4.14.2",
+      "name": "anyio",
+      "version": "4.14.2",
+      "purl": "pkg:pypi/anyio@4.14.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "anyio-4.14.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/anyio-4.14.2.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5e6fc4dfd833319913b287be7a30d9935e9208c7ef917630621855aaac4d419"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://anyio.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "website",
+          "url": "https://anyio.readthedocs.io/en/stable/versionhistory.html"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/agronholm/anyio"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/agronholm/anyio/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2026.7.22",
+      "name": "certifi",
+      "version": "2026.7.22",
+      "purl": "pkg:pypi/certifi@2026.7.22",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "certifi-2026.7.22.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/certifi-2026.7.22.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ef5af1638fbb23676ac3c5777dfcfc2cd9c348fe4172ed5ba3d277655b248090"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/certifi/python-certifi"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/certifi/python-certifi"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cffi@2.1.1",
+      "name": "cffi",
+      "version": "2.1.1",
+      "purl": "pkg:pypi/cffi@2.1.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "cffi-2.1.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/cffi-2.1.1.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "67b6a7595df7ede2195016a05d285faa7d362a8f57c238984edb8bb674b5770d"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT-0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cffi.readthedocs.io/"
+        },
+        {
+          "type": "website",
+          "url": "https://cffi.readthedocs.io/en/latest/whatsnew.html"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/python-cffi/cffi/releases"
+        },
+        {
+          "type": "website",
+          "url": "https://groups.google.com/forum/#!forum/python-cffi"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/python-cffi/cffi"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/python-cffi/cffi/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.5.1",
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "purl": "pkg:pypi/charset-normalizer@3.5.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "charset_normalizer-3.5.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/charset_normalizer-3.5.1.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f00192aad9979ce50bdab2bfd471ad0705aee5a33f4bf6d27c1bd24417c873e5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jawah/charset_normalizer/blob/master/CHANGELOG.md"
+        },
+        {
+          "type": "website",
+          "url": "https://charset-normalizer.readthedocs.io/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jawah/charset_normalizer"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/jawah/charset_normalizer/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@8.4.2",
+      "name": "click",
+      "version": "8.4.2",
+      "purl": "pkg:pypi/click@8.4.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "click-8.4.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/click-8.4.2.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "194c9dd81d567f9081f026c7e401060fbafa7bc147c8e0a58b3668b40a64c031"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://click.palletsprojects.com/page/changes/"
+        },
+        {
+          "type": "website",
+          "url": "https://discord.gg/pallets"
+        },
+        {
+          "type": "website",
+          "url": "https://click.palletsprojects.com/"
+        },
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/donate"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pallets/click/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/colorama@0.4.6",
+      "name": "colorama",
+      "version": "0.4.6",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "colorama-0.4.6.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/colorama-0.4.6.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7baed29eb50c3b29bdb33ff84e3177bf1bc05784f7685ecdcaa4471c7dd810cc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/tartley/colorama"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/crcmod@1.7",
+      "name": "crcmod",
+      "version": "1.7",
+      "purl": "pkg:pypi/crcmod@1.7",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "crcmod-1.7.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/crcmod-1.7.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e306eccf9e4b26805bbacda4285dce1e056d9653602933521688fc18b1bed860"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://crcmod.sourceforge.net/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@50.0.0",
+      "name": "cryptography",
+      "version": "50.0.0",
+      "purl": "pkg:pypi/cryptography@50.0.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "cryptography-50.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/cryptography-50.0.0.dist-info/licenses/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/cryptography-50.0.0.dist-info/licenses/LICENSE.APACHE\", \"Worker Runtime/Python/Lib/site-packages/cryptography-50.0.0.dist-info/licenses/LICENSE.BSD\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d4e345f82cb783877d73261f00303577cdf20d13229176c2d03a0a5603cb3ab5"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://cryptography.io/en/latest/changelog/"
+        },
+        {
+          "type": "website",
+          "url": "https://cryptography.io/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/pyca/cryptography"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/pyca/cryptography/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pyca/cryptography/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/decorator@5.3.1",
+      "name": "decorator",
+      "version": "5.3.1",
+      "purl": "pkg:pypi/decorator@5.3.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "decorator-5.3.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/decorator-5.3.1.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2133792485403bbd739e1db5960228bedbcde6d00c0acc052b27f39dbae5b5c4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/editdistance@0.8.1",
+      "name": "editdistance",
+      "version": "0.8.1",
+      "purl": "pkg:pypi/editdistance@0.8.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "editdistance-0.8.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/editdistance-0.8.1.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "72df25f676b0904c8d76c7792d287e3a14d4f3d33c8f47d3603988c963ac42d1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/roy-ht/editdistance"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/roy-ht/editdistance"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/roy-ht/editdistance"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/filelock@3.32.3",
+      "name": "filelock",
+      "version": "3.32.3",
+      "purl": "pkg:pypi/filelock@3.32.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "filelock-3.32.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/filelock-3.32.3.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2d80f43bd905689145c00b3133bc95895d654ced70a96a1802e9237e0d66599f"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://py-filelock.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tox-dev/py-filelock"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tox-dev/py-filelock"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tox-dev/py-filelock/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/fsspec@2026.7.0",
+      "name": "fsspec",
+      "version": "2026.7.0",
+      "purl": "pkg:pypi/fsspec@2026.7.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "fsspec-2026.7.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/fsspec-2026.7.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "88b1657585de14e3bb82aa5278aa9595b30aa4ca74ead073d8950615c808099d"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://filesystem-spec.readthedocs.io/en/latest/changelog.html"
+        },
+        {
+          "type": "website",
+          "url": "https://filesystem-spec.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fsspec/filesystem_spec"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/h11@0.16.0",
+      "name": "h11",
+      "version": "0.16.0",
+      "purl": "pkg:pypi/h11@0.16.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "h11-0.16.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "28f326098ac09fcba79b8f180f96087c841fe2456215cb7b872a9c7d5cd19d64"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/python-hyper/h11"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/hf-xet@1.6.0",
+      "name": "hf-xet",
+      "version": "1.6.0",
+      "purl": "pkg:pypi/hf-xet@1.6.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "hf_xet-1.6.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/hf_xet-1.6.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b1226620631e4512909f182698f1b8a8f89c5d868bac3c6cebe30a8d0f0a0cd0"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://huggingface.co/docs/hub/xet/index"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/huggingface/xet-core"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/huggingface/xet-core/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/huggingface/xet-core.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpcore@1.0.9",
+      "name": "httpcore",
+      "version": "1.0.9",
+      "purl": "pkg:pypi/httpcore@1.0.9",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "httpcore-1.0.9.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/httpcore-1.0.9.dist-info/licenses/LICENSE.md\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fe2d4fda6199128978779e0cf27f3c045c531863fcdd987eacc74f3a18d41c21"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.encode.io/httpcore"
+        },
+        {
+          "type": "website",
+          "url": "https://www.encode.io/httpcore/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/encode/httpcore"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx@0.28.1",
+      "name": "httpx",
+      "version": "0.28.1",
+      "purl": "pkg:pypi/httpx@0.28.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "httpx-0.28.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/httpx-0.28.1.dist-info/licenses/LICENSE.md\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "febb9b0f8f3e80d57c8199c304f35c4336e8581d1d18d7983c92766b82793b25"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/encode/httpx/blob/master/CHANGELOG.md"
+        },
+        {
+          "type": "website",
+          "url": "https://www.python-httpx.org"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/encode/httpx"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/encode/httpx"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/huggingface-hub@1.28.0",
+      "name": "huggingface_hub",
+      "version": "1.28.0",
+      "purl": "pkg:pypi/huggingface-hub@1.28.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "huggingface_hub-1.28.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/huggingface_hub-1.28.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "566d25225518213644171833d0f13cdfbcc1332d5adf6aac7ef539c2dd6500f0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/huggingface/huggingface_hub"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.19",
+      "name": "idna",
+      "version": "3.19",
+      "purl": "pkg:pypi/idna@3.19",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "idna-3.19.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/idna-3.19.dist-info/licenses/LICENSE.md\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4d113161aca8582e8d28fddf3ea50f19b607209c2b3e4364379a163454680084"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/kjd/idna/blob/master/HISTORY.md"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/kjd/idna/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/kjd/idna"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/imageio-ffmpeg@0.5.1",
+      "name": "imageio-ffmpeg",
+      "version": "0.5.1",
+      "purl": "pkg:pypi/imageio-ffmpeg@0.5.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "imageio_ffmpeg-0.5.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/imageio_ffmpeg-0.5.1.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e4a573b6b4410dc610454cf404ea304cff083174ad58df1d4dcebcb8e57cb217"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-2-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/imageio/imageio-ffmpeg"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/iniconfig@2.3.0",
+      "name": "iniconfig",
+      "version": "2.3.0",
+      "purl": "pkg:pypi/iniconfig@2.3.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "iniconfig-2.3.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/iniconfig-2.3.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "40d773f84e4e112f495bbf4f1be9cbd2d456c0aeb6ef5311f75d1bf322f2165b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/pytest-dev/iniconfig"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jaconv@0.5.0",
+      "name": "jaconv",
+      "version": "0.5.0",
+      "purl": "pkg:pypi/jaconv@0.5.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "jaconv-0.5.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/jaconv-0.5.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "244ada3017da08e08483d1543211c76e404b7dd578795844d5ef6d35f9b49993"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/ikegami-yukino/jaconv"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@3.1.6",
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "purl": "pkg:pypi/jinja2@3.1.6",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "jinja2-3.1.6.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/jinja2-3.1.6.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "68c5548fb67c4132a13898d9b31ec50c6bea2abdd915d921f214355c3a6499c8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://jinja.palletsprojects.com/changes/"
+        },
+        {
+          "type": "website",
+          "url": "https://discord.gg/pallets"
+        },
+        {
+          "type": "website",
+          "url": "https://jinja.palletsprojects.com/"
+        },
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/donate"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pallets/jinja/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jmespath@1.1.0",
+      "name": "jmespath",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/jmespath@1.1.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "jmespath-1.1.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/jmespath-1.1.0.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "81181e9a312f1b87e5be7c8376c57b0e8c962ba524a25a313d43dc2e2d3984f3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/jmespath/jmespath.py"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/joblib@1.5.3",
+      "name": "joblib",
+      "version": "1.5.3",
+      "purl": "pkg:pypi/joblib@1.5.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "joblib-1.5.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/joblib-1.5.3.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "cee9c60896ae4e7a965a840fbde50d111d2f8018f61201d1ed2e9fc3dd4883e6"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://joblib.readthedocs.io"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/joblib/joblib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/kaldiio@2.18.1",
+      "name": "kaldiio",
+      "version": "2.18.1",
+      "purl": "pkg:pypi/kaldiio@2.18.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "kaldiio-2.18.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/kaldiio-2.18.1.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "654f114c1b49054c265e4e2e894f4c4489ee3b25430fa5e549d155ef3b7d24e9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "See bundled license text"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/nttcslab-sp/kaldiio"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/lazy-loader@0.5",
+      "name": "lazy-loader",
+      "version": "0.5",
+      "purl": "pkg:pypi/lazy-loader@0.5",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "lazy_loader-0.5.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/lazy_loader-0.5.dist-info/licenses/LICENSE.md\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ab65c86264937d8ac080d5fc895db927ff2f964a07cb92f91768db155fc0c37c"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://scientific-python.org/specs/spec-0001/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/scientific-python/lazy-loader"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/llvmlite@0.49.0",
+      "name": "llvmlite",
+      "version": "0.49.0",
+      "purl": "pkg:pypi/llvmlite@0.49.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "llvmlite-0.49.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/llvmlite-0.49.0.dist-info/licenses/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/llvmlite-0.49.0.dist-info/licenses/LICENSE.thirdparty\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4afa9ea8cf96a5d1ccd2c008f7a03e70d7b2c487283150da41f70058dfbfcc81"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://llvmlite.readthedocs.io"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/numba/llvmlite"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markdown-it-py@4.2.0",
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "purl": "pkg:pypi/markdown-it-py@4.2.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "markdown_it_py-4.2.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/markdown_it_py-4.2.0.dist-info/licenses/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/markdown_it_py-4.2.0.dist-info/licenses/LICENSE.markdown-it\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "72c36ff516755443b1ecb61e17b2567a990230b49a504b0eb0c42d5f82448a9c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://markdown-it-py.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/executablebooks/markdown-it-py"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@3.0.3",
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/markupsafe@3.0.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "markupsafe-3.0.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/markupsafe-3.0.3.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f0ae5dbb09d50fb5f7632c3d53f0220995ef76019e5892e0a545740136a4e3cb"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://palletsprojects.com/donate"
+        },
+        {
+          "type": "website",
+          "url": "https://markupsafe.palletsprojects.com/"
+        },
+        {
+          "type": "website",
+          "url": "https://markupsafe.palletsprojects.com/page/changes/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pallets/markupsafe/"
+        },
+        {
+          "type": "website",
+          "url": "https://discord.gg/pallets"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mdurl@0.1.2",
+      "name": "mdurl",
+      "version": "0.1.2",
+      "purl": "pkg:pypi/mdurl@0.1.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "mdurl-0.1.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/mdurl-0.1.2.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b53b29d48f499367053fda3c81e7ce27d2558380ebbf83e66023b02eb7ddd25d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/executablebooks/mdurl"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/mpmath@1.3.0",
+      "name": "mpmath",
+      "version": "1.3.0",
+      "purl": "pkg:pypi/mpmath@1.3.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "mpmath-1.3.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/mpmath-1.3.0.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://mpmath.org/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/fredrik-johansson/mpmath"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fredrik-johansson/mpmath/issues"
+        },
+        {
+          "type": "website",
+          "url": "http://mpmath.org/doc/current/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/msgpack@1.2.1",
+      "name": "msgpack",
+      "version": "1.2.1",
+      "purl": "pkg:pypi/msgpack@1.2.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "msgpack-1.2.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/msgpack-1.2.1.dist-info/licenses/COPYING\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ac4d3343249d7c04a67b87f84c21f9ffb6b7d1e89cf569b762e2d964c4377169"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://msgpack.org/"
+        },
+        {
+          "type": "website",
+          "url": "https://msgpack-python.readthedocs.io/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/msgpack/msgpack-python/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/msgpack/msgpack-python/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/msgpack/msgpack-python/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/narwhals@2.25.0",
+      "name": "narwhals",
+      "version": "2.25.0",
+      "purl": "pkg:pypi/narwhals@2.25.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "narwhals-2.25.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/narwhals-2.25.0.dist-info/licenses/LICENSE.md\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7fd4dedd283bf242b7d04fff6979e25ba9d98da1d3ee3703001908dc8f854a1b"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/narwhals-dev/narwhals"
+        },
+        {
+          "type": "website",
+          "url": "https://narwhals-dev.github.io/narwhals/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/narwhals-dev/narwhals"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/narwhals-dev/narwhals/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/networkx@3.6.1",
+      "name": "networkx",
+      "version": "3.6.1",
+      "purl": "pkg:pypi/networkx@3.6.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "networkx-3.6.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/networkx-3.6.1.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aca5d94a97d1f70f301d033addb635f6e66be8973a00aba4127637eed2ef316a"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://networkx.org/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/networkx/networkx/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://networkx.org/documentation/stable/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/networkx/networkx"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/numba@0.67.0",
+      "name": "numba",
+      "version": "0.67.0",
+      "purl": "pkg:pypi/numba@0.67.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "numba-0.67.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/numba-0.67.0.dist-info/licenses/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/numba-0.67.0.dist-info/licenses/LICENSES.third-party\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8fba7bdf057a43bae9570b812971c193c3bd4cef6099b0f100ed93b2dcb65823"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://numba.pydata.org"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/numpy@2.5.2",
+      "name": "numpy",
+      "version": "2.5.2",
+      "purl": "pkg:pypi/numpy@2.5.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "numpy-2.5.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/ma/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/distributions/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/philox/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/_core/src/highway/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/numpy-2.5.2.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9a895d801184d2176f926af84eb47f2db1af2756afac99d64a2bf482d5d5e024"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://numpy.org"
+        },
+        {
+          "type": "website",
+          "url": "https://numpy.org/doc/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/numpy/numpy"
+        },
+        {
+          "type": "website",
+          "url": "https://pypi.org/project/numpy/#files"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/numpy/numpy/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://numpy.org/doc/stable/release"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/opencc-python-reimplemented@0.1.7",
+      "name": "opencc-python-reimplemented",
+      "version": "0.1.7",
+      "purl": "pkg:pypi/opencc-python-reimplemented@0.1.7",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "opencc_python_reimplemented-0.1.7.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/TOKENIZERS-APACHE-2.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0da812fd9236be4f841553350a64dcf76f84dd580de99320b6e3030c1b9c7a4b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/yichen0831/opencc-python"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/oss2@2.19.1",
+      "name": "oss2",
+      "version": "2.19.1",
+      "purl": "pkg:pypi/oss2@2.19.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "oss2-2.19.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/oss2-2.19.1.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "02b56b4949d89f6d161f2fcc39fb829adb8ca0580e8ccad6a561261c7d51d158"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://oss.aliyun.com"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@26.3",
+      "name": "packaging",
+      "version": "26.3",
+      "purl": "pkg:pypi/packaging@26.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "packaging-26.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/packaging-26.3.dist-info/licenses/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/packaging-26.3.dist-info/licenses/LICENSE.APACHE\", \"Worker Runtime/Python/Lib/site-packages/packaging-26.3.dist-info/licenses/LICENSE.BSD\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 OR BSD-2-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://packaging.pypa.io/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pypa/packaging"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pefile@2023.2.7",
+      "name": "pefile",
+      "version": "2023.2.7",
+      "purl": "pkg:pypi/pefile@2023.2.7",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pefile-2023.2.7.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pefile-2023.2.7.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "363f5c2c30558bf0245a1676e86a86af94186e4821e1fe9ace3eff1d7ef91204"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/erocarrera/pefile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pillow@12.2.0",
+      "name": "pillow",
+      "version": "12.2.0",
+      "purl": "pkg:pypi/pillow@12.2.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pillow-12.2.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pillow-12.2.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "500a4dcf2154f5291661ea4a9025898081d536c3026d506c648c31b68a7a66cc"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT-CMU"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pillow.readthedocs.io/en/stable/releasenotes/index.html"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/python-pillow/Pillow/releases"
+        },
+        {
+          "type": "website",
+          "url": "https://pillow.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi"
+        },
+        {
+          "type": "website",
+          "url": "https://python-pillow.github.io"
+        },
+        {
+          "type": "website",
+          "url": "https://fosstodon.org/@pillow"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/python-pillow/Pillow"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pip@26.2.1",
+      "name": "pip",
+      "version": "26.2.1",
+      "purl": "pkg:pypi/pip@26.2.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pip-26.2.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/certifi/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/distro/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/msgpack/COPYING\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.APACHE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE.BSD\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/pkg_resources/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/platformdirs/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/pygments/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/pyproject_hooks/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/requests/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/resolvelib/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/rich/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli_w/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/truststore/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/pip-26.2.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3a561005822841f2c45f442f6c7a7505172c8c376c9fe274d876c8ac912968cb"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pip.pypa.io/en/stable/news/"
+        },
+        {
+          "type": "website",
+          "url": "https://pip.pypa.io"
+        },
+        {
+          "type": "website",
+          "url": "https://pip.pypa.io/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pypa/pip"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/platformdirs@4.11.3",
+      "name": "platformdirs",
+      "version": "4.11.3",
+      "purl": "pkg:pypi/platformdirs@4.11.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "platformdirs-4.11.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/platformdirs-4.11.3.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e1ef75ceb97699ef987eb8d2648a978441f166740901ff6979c915d5c01d19d"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://platformdirs.readthedocs.io/en/latest/changelog.html"
+        },
+        {
+          "type": "website",
+          "url": "https://platformdirs.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tox-dev/platformdirs"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tox-dev/platformdirs"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tox-dev/platformdirs/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pluggy@1.6.0",
+      "name": "pluggy",
+      "version": "1.6.0",
+      "purl": "pkg:pypi/pluggy@1.6.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pluggy-1.6.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pluggy-1.6.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7438c35ee25a095eb7416f84b461c2d74425c5e734ad54c3912453c65244e01c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pooch@1.9.0",
+      "name": "pooch",
+      "version": "1.9.0",
+      "purl": "pkg:pypi/pooch@1.9.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pooch-1.9.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pooch-1.9.0.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7a67b1fba8575748276b1abee0db0d0c7d673d1f4f8f404699e949f1359da962"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.fatiando.org/pooch"
+        },
+        {
+          "type": "website",
+          "url": "https://www.fatiando.org/pooch/latest/changes.html"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fatiando/pooch/issues"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/fatiando/pooch"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/protobuf@7.36.0",
+      "name": "protobuf",
+      "version": "7.36.0",
+      "purl": "pkg:pypi/protobuf@7.36.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "protobuf-7.36.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/protobuf-7.36.0.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a318aecdc5dbf73e6fa1377b1c3b7b8e3e439e17ebeb4cb37357c2eb6a2ef182"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "3-Clause BSD License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://developers.google.com/protocol-buffers/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/psutil@7.0.0",
+      "name": "psutil",
+      "version": "7.0.0",
+      "purl": "pkg:pypi/psutil@7.0.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "psutil-7.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/psutil-7.0.0.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8c4198dfca297dfee074ee46394207f317965c25dc1af8ad38862b954795a7c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/giampaolo/psutil"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyclipper@1.4.0",
+      "name": "pyclipper",
+      "version": "1.4.0",
+      "purl": "pkg:pypi/pyclipper@1.4.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pyclipper-1.4.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pyclipper-1.4.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "98fe70a18b29110448b184deeaa5bcd9d018ce9e9db6ef232dd03146b68f1f78"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/fonttools/pyclipper"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycparser@3.0",
+      "name": "pycparser",
+      "version": "3.0",
+      "purl": "pkg:pypi/pycparser@3.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pycparser-3.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pycparser-3.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f547a60b0ab54cc2f242213d1f87960ad80df7dd5dfeb98d17a444d48bfb6b93"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/eliben/pycparser"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pycryptodome@3.23.0",
+      "name": "pycryptodome",
+      "version": "3.23.0",
+      "purl": "pkg:pypi/pycryptodome@3.23.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pycryptodome-3.23.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pycryptodome-3.23.0.dist-info/LICENSE.rst\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3054c7b6ca96dfa8c968571921d169f91ac8ffa63686629d512dd50aa380bff1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD, Public Domain"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.pycryptodome.org"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/Legrandin/pycryptodome/"
+        },
+        {
+          "type": "website",
+          "url": "https://www.pycryptodome.org/src/changelog"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pygments@2.21.0",
+      "name": "Pygments",
+      "version": "2.21.0",
+      "purl": "pkg:pypi/pygments@2.21.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pygments-2.21.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pygments-2.21.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1dde075570136774c706bf0009183a793fe0ee262e4a5590cc6eff8453eedd43"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pygments.org"
+        },
+        {
+          "type": "website",
+          "url": "https://pygments.org/docs"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pygments/pygments"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/pygments/pygments/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/pygments/pygments/blob/master/CHANGES"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyinstaller@6.14.2",
+      "name": "pyinstaller",
+      "version": "6.14.2",
+      "purl": "pkg:pypi/pyinstaller@6.14.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pyinstaller-6.14.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/PYINSTALLER-COPYING.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "build-integrated"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "41b49b89e387c23f0e171904588d28cc03d824046c28bf34c259b3091ef9d718"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "GPLv2-or-later with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.pyinstaller.org/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/pyinstaller/pyinstaller"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyinstaller-hooks-contrib@2026.6",
+      "name": "pyinstaller-hooks-contrib",
+      "version": "2026.6",
+      "purl": "pkg:pypi/pyinstaller-hooks-contrib@2026.6",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pyinstaller_hooks_contrib-2026.6.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pyinstaller_hooks_contrib-2026.6.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ed6d46645fc409648ac6ed04d68b62cce72a6c9852c2ec6655d169f58a372954"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache Software License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/pyinstaller/pyinstaller-hooks-contrib"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pynndescent@0.6.0",
+      "name": "pynndescent",
+      "version": "0.6.0",
+      "purl": "pkg:pypi/pynndescent@0.6.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pynndescent-0.6.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pynndescent-0.6.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "96dc394d13cbbe38ce637cb52fabe9ed6ebfd1be04f477d182c46abdead50aae"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-2-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://github.com/lmcinnes/pynndescent"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyside6@6.9.1",
+      "name": "PySide6",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/pyside6@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "PySide6-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5928ea1a546381619061c4fb154b0621a15ee5a5286539f0feae1c8f6fba9b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyside6@6.9.1",
+      "name": "PySide6",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/pyside6@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "PySide6-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "build-integrated"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c5928ea1a546381619061c4fb154b0621a15ee5a5286539f0feae1c8f6fba9b0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyside6-addons@6.9.1",
+      "name": "PySide6_Addons",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/pyside6-addons@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "PySide6_Addons-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4acb1b3119103ff68a3e3b1971c5c427652f71f52cde5beb1199664d2c7e1baf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyside6-addons@6.9.1",
+      "name": "PySide6_Addons",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/pyside6-addons@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "PySide6_Addons-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "build-integrated"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4acb1b3119103ff68a3e3b1971c5c427652f71f52cde5beb1199664d2c7e1baf"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyside6-essentials@6.9.1",
+      "name": "PySide6_Essentials",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/pyside6-essentials@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "PySide6_Essentials-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e5d3611e665c7ab9973563394f4c44595467532f854f493b8fa2a84a508b408"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyside6-essentials@6.9.1",
+      "name": "PySide6_Essentials",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/pyside6-essentials@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "PySide6_Essentials-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "build-integrated"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e5d3611e665c7ab9973563394f4c44595467532f854f493b8fa2a84a508b408"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "framework",
+      "bom-ref": "pkg:generic/python@3.12.14",
+      "name": "Python",
+      "version": "3.12.14",
+      "purl": "pkg:generic/python@3.12.14",
+      "licenses": [
+        {
+          "license": {
+            "id": "PSF-2.0"
+          }
+        }
+      ],
+      "properties": [
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/LICENSE.txt\"]"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pywin32-ctypes@0.2.3",
+      "name": "pywin32-ctypes",
+      "version": "0.2.3",
+      "purl": "pkg:pypi/pywin32-ctypes@0.2.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pywin32_ctypes-0.2.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pywin32_ctypes-0.2.3.dist-info/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1e3767d3faff4d5b9c347160883831098d1f25acf4306b02c9acdcc6bfb5883b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/enthought/pywin32-ctypes"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.3",
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "pyyaml-6.0.3.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/pyyaml-6.0.3.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "847a701020334386852b6e07bad1053cb0ce3da9ee1846e7e9d02b24e8bb3f8d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyyaml.org/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/yaml/pyyaml/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/yaml/pyyaml/actions"
+        },
+        {
+          "type": "website",
+          "url": "https://pyyaml.org/wiki/PyYAMLDocumentation"
+        },
+        {
+          "type": "website",
+          "url": "http://lists.sourceforge.net/lists/listinfo/yaml-core"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/yaml/pyyaml"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/regex@2026.7.19",
+      "name": "regex",
+      "version": "2026.7.19",
+      "purl": "pkg:pypi/regex@2026.7.19",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "regex-2026.7.19.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/regex-2026.7.19.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1223d297d68f69c7ab0b515667a5b2e715ffed61626685bc1dcc280f93ce80f5"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "Apache-2.0 AND CNRI-Python"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/mrabarnett/mrab-regex"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/reportlab@4.4.10",
+      "name": "reportlab",
+      "version": "4.4.10",
+      "purl": "pkg:pypi/reportlab@4.4.10",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "reportlab-4.4.10.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/reportlab-4.4.10.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "38bb85e10765993a13296843d7434c256d505fb132e794bd691ef5686fde306f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc."
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://www.reportlab.com/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.33.0",
+      "name": "requests",
+      "version": "2.33.0",
+      "purl": "pkg:pypi/requests@2.33.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "requests-2.33.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/requests-2.33.0.dist-info/licenses/LICENSE\", \"Worker Runtime/Python/Lib/site-packages/requests-2.33.0.dist-info/licenses/NOTICE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0cc0fa6e89be83cfa1777957519e3fffe78d1a79b30561934d1e4384fb177711"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://requests.readthedocs.io"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/psf/requests"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/rich@15.0.0",
+      "name": "rich",
+      "version": "15.0.0",
+      "purl": "pkg:pypi/rich@15.0.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "rich-15.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/rich-15.0.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fad34fc603fac4481bf81f8dd629492fc302c0ec31909c86644751512afb2e3b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://rich.readthedocs.io/en/latest/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/Textualize/rich"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/safetensors@0.8.0",
+      "name": "safetensors",
+      "version": "0.8.0",
+      "purl": "pkg:pypi/safetensors@0.8.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "safetensors-0.8.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/safetensors-0.8.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "597731d1baf7a94219753fa0a74abd1a8a18562d50d98b2e25d91e11e3224d36"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache Software License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/huggingface/safetensors"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/huggingface/safetensors"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/scikit-learn@1.9.0",
+      "name": "scikit-learn",
+      "version": "1.9.0",
+      "purl": "pkg:pypi/scikit-learn@1.9.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "scikit_learn-1.9.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/scikit_learn-1.9.0.dist-info/licenses/COPYING\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ee61a579f42d3edabe3e483db483475e33fffec04d7f3e69c539527bd93eaca6"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://scikit-learn.org"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/scikit-learn/scikit-learn"
+        },
+        {
+          "type": "website",
+          "url": "https://pypi.org/project/scikit-learn/#files"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/scikit-learn/scikit-learn/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://scikit-learn.org/stable/whats_new"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/setuptools@81.0.0",
+      "name": "setuptools",
+      "version": "81.0.0",
+      "purl": "pkg:pypi/setuptools@81.0.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "setuptools-81.0.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/setuptools-81.0.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e3ca2edbff500ebe5ba650aa6d8f10249fb4ceae266029b160ce7058ef40df15"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/pypa/setuptools"
+        },
+        {
+          "type": "website",
+          "url": "https://setuptools.pypa.io/"
+        },
+        {
+          "type": "website",
+          "url": "https://setuptools.pypa.io/en/stable/history.html"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/shapely@2.1.2",
+      "name": "shapely",
+      "version": "2.1.2",
+      "purl": "pkg:pypi/shapely@2.1.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "shapely-2.1.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/shapely-2.1.2.dist-info/licenses/LICENSE.txt\", \"Worker Runtime/Python/Lib/site-packages/shapely-2.1.2.dist-info/licenses/LICENSE_GEOS\", \"Worker Runtime/Python/Lib/site-packages/shapely-2.1.2.dist-info/licenses/LICENSE_win32\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "01dd9a347d1efa56099c3aa54c09f61ddd19e8c91eb222b9f16b6d6095b0e4a3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://shapely.readthedocs.io/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/shapely/shapely"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/shellingham@1.5.4",
+      "name": "shellingham",
+      "version": "1.5.4",
+      "purl": "pkg:pypi/shellingham@1.5.4",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "shellingham-1.5.4.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/shellingham-1.5.4.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "183d80220a37493262795739dd357cc5bb3f49bd390cc9198d5180e5451a07fa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "ISC License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/sarugaku/shellingham"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sherpa-onnx-core@1.13.7",
+      "name": "sherpa-onnx-core",
+      "version": "1.13.7",
+      "purl": "pkg:pypi/sherpa-onnx-core@1.13.7",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "sherpa_onnx_core-1.13.7.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/TOKENIZERS-APACHE-2.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1797eb58663cc18dbb1682a0e9d3c2a04d0459252191c28f49230b62f35e4f68"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache-2.0"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/k2-fsa/sherpa-onnx"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sherpa-onnx@1.13.7",
+      "name": "sherpa_onnx",
+      "version": "1.13.7",
+      "purl": "pkg:pypi/sherpa-onnx@1.13.7",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "sherpa_onnx-1.13.7.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/TOKENIZERS-APACHE-2.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3db82ba6a198da9cc32f8a815e2cf228dd7896a71736c94d1ff19d3262f888b5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "Apache licensed, as found in the LICENSE file"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/k2-fsa/sherpa-onnx"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/shiboken6@6.9.1",
+      "name": "shiboken6",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/shiboken6@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "shiboken6-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2a6bc5e184c7d8e7503ff53500d292c069da399f5f9ebc4a80976ca4058b6e28"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/shiboken6@6.9.1",
+      "name": "shiboken6",
+      "version": "6.9.1",
+      "purl": "pkg:pypi/shiboken6@6.9.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "shiboken6-6.9.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/LGPL-3.0.txt\", \"Legal/LICENSES/GPL-3.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "build-integrated"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2a6bc5e184c7d8e7503ff53500d292c069da399f5f9ebc4a80976ca4058b6e28"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://pyside.org"
+        },
+        {
+          "type": "website",
+          "url": "https://doc.qt.io/qtforpython"
+        },
+        {
+          "type": "vcs",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/"
+        },
+        {
+          "type": "website",
+          "url": "https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs"
+        },
+        {
+          "type": "website",
+          "url": "https://bugreports.qt.io/projects/PYSIDE"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.17.0",
+      "name": "six",
+      "version": "1.17.0",
+      "purl": "pkg:pypi/six@1.17.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "six-1.17.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/six-1.17.0.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "562042078c2752549f6d8a7c86dbc5dd708088a7be6d80672ec7b07100b72468"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/benjaminp/six"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/soundfile@0.14.0",
+      "name": "soundfile",
+      "version": "0.14.0",
+      "purl": "pkg:pypi/soundfile@0.14.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "soundfile-0.14.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/soundfile-0.14.0.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "266fbe4cb310c5222edd5216564149585c55395db7b29630f2e4b0ff8ac9cd47"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD 3-Clause License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/bastibe/python-soundfile"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/soxr@1.1.0",
+      "name": "soxr",
+      "version": "1.1.0",
+      "purl": "pkg:pypi/soxr@1.1.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "soxr-1.1.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/soxr-1.1.0.dist-info/licenses/COPYING.LGPL\", \"Worker Runtime/Python/Lib/site-packages/soxr-1.1.0.dist-info/licenses/LICENSE-libsoxr.txt\", \"Worker Runtime/Python/Lib/site-packages/soxr-1.1.0.dist-info/licenses/LICENSE-PFFFT.txt\", \"Worker Runtime/Python/Lib/site-packages/soxr-1.1.0.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4e2130ae330b85d863346ac935888e66d6816d8e934b6f4416614e8d22a4dc2e"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LGPL-2.1-or-later"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/dofuuz/python-soxr"
+        },
+        {
+          "type": "website",
+          "url": "https://python-soxr.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/dofuuz/python-soxr/releases"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/dofuuz/python-soxr"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/dofuuz/python-soxr/issues"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sympy@1.14.0",
+      "name": "sympy",
+      "version": "1.14.0",
+      "purl": "pkg:pypi/sympy@1.14.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "sympy-1.14.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/sympy-1.14.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://sympy.org"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/sympy/sympy"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tensorboardx@2.6.5",
+      "name": "tensorboardX",
+      "version": "2.6.5",
+      "purl": "pkg:pypi/tensorboardx@2.6.5",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "tensorboardx-2.6.5.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/tensorboardx-2.6.5.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "be1f7761acab1fcdafe06830ae02534bb6c7c75873865189106c4b6823a4bd29"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/lanpa/tensorboardX"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/lanpa/tensorboardX.git"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/threadpoolctl@3.6.0",
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/threadpoolctl@3.6.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "threadpoolctl-3.6.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/threadpoolctl-3.6.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a45df8d07ea1883d772183a501d7d526076aa70dfcfddb276a2cbdc04def5341"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/joblib/threadpoolctl"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tiktoken@0.14.0",
+      "name": "tiktoken",
+      "version": "0.14.0",
+      "purl": "pkg:pypi/tiktoken@0.14.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "tiktoken-0.14.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/tiktoken-0.14.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2dab7998e235496a58598d467770c56b9efe9b17273a2eb10899ff15108a0a19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License\n        \n        Copyright (c) 2022 OpenAI, Shantanu Jain\n        \n        Permission is hereby granted, free of charge, to any person obtaining a copy\n        of this software and associated documentation files (the \"Software\"), to deal\n        in the Software without restriction, including without limitation the rights\n        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n        copies of the Software, and to permit persons to whom the Software is\n        furnished to do so, subject to the following conditions:\n        \n        The above copyright notice and this permission notice shall be included in all\n        copies or substantial portions of the Software.\n        \n        THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n        SOFTWARE."
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/openai/tiktoken"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/openai/tiktoken"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/openai/tiktoken/blob/main/CHANGELOG.md"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tkinterdnd2@0.4.2",
+      "name": "tkinterdnd2",
+      "version": "0.4.2",
+      "purl": "pkg:pypi/tkinterdnd2@0.4.2",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "tkinterdnd2-0.4.2.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/tkinterdnd2-0.4.2.dist-info/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e7e7f95aa75f888a0350a3fe26e0a61e417bb453dfd9065b85ac663285dfb58"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MIT License"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/Eliav2/tkinterdnd2"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/tqdm@4.70.0",
+      "name": "tqdm",
+      "version": "4.70.0",
+      "purl": "pkg:pypi/tqdm@4.70.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "tqdm-4.70.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Legal/LICENSES/TQDM-LICENCE.txt\", \"Legal/LICENSES/MPL-2.0.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0d95b85b90428f8776afc4a92b17c5094f78ee98d150b3255acbcdf4e9d57941"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "MPL-2.0 AND MIT"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://tqdm.github.io"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/tqdm/tqdm"
+        },
+        {
+          "type": "website",
+          "url": "https://tqdm.github.io/releases"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/tqdm/tqdm/wiki"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typer@0.27.1",
+      "name": "typer",
+      "version": "0.27.1",
+      "purl": "pkg:pypi/typer@0.27.1",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "typer-0.27.1.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/typer-0.27.1.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d71011dc4b250b9670d91fbae7882d707a9ef93b22a527d90992a962a5759601"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/fastapi/typer"
+        },
+        {
+          "type": "website",
+          "url": "https://typer.tiangolo.com"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/fastapi/typer"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/fastapi/typer/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://typer.tiangolo.com/release-notes/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/typing-extensions@4.16.0",
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "purl": "pkg:pypi/typing-extensions@4.16.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "typing_extensions-4.16.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/typing_extensions-4.16.0.dist-info/licenses/LICENSE\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "PSF-2.0"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/python/typing_extensions/issues"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/python/typing_extensions/blob/main/CHANGELOG.md"
+        },
+        {
+          "type": "website",
+          "url": "https://typing-extensions.readthedocs.io/"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/python/typing_extensions"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/python/typing/discussions"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/python/typing_extensions"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/umap-learn@0.5.12",
+      "name": "umap-learn",
+      "version": "0.5.12",
+      "purl": "pkg:pypi/umap-learn@0.5.12",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "umap_learn-0.5.12.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/umap_learn-0.5.12.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "54eb60313402be4f3d47e40098e09ba25c1b254dd314bfca44a7318621a67505"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "http://github.com/lmcinnes/umap"
+        },
+        {
+          "type": "vcs",
+          "url": "http://github.com/lmcinnes/umap"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.7.0",
+      "name": "urllib3",
+      "version": "2.7.0",
+      "purl": "pkg:pypi/urllib3@2.7.0",
+      "properties": [
+        {
+          "name": "l-one:metadata-path",
+          "value": "urllib3-2.7.0.dist-info/METADATA"
+        },
+        {
+          "name": "l-one:license-text-paths",
+          "value": "[\"Worker Runtime/Python/Lib/site-packages/urllib3-2.7.0.dist-info/licenses/LICENSE.txt\"]"
+        },
+        {
+          "name": "l-one:scope",
+          "value": "runtime"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "66147856d30bbb6bed01c6ce3326d0f48d84ed5f286ac177633a1486b82eace5"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "website",
+          "url": "https://github.com/urllib3/urllib3/blob/main/CHANGES.rst"
+        },
+        {
+          "type": "website",
+          "url": "https://urllib3.readthedocs.io"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/urllib3/urllib3"
+        },
+        {
+          "type": "website",
+          "url": "https://github.com/urllib3/urllib3/issues"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "pkg:generic/l-1-file-to-text@2.1.0%20%E5%85%AC%E5%BC%80%E5%86%85%E6%B5%8B%E7%89%88",
+      "dependsOn": [
+        "pkg:pypi/aliyun-python-sdk-core@2.16.1",
+        "pkg:pypi/aliyun-python-sdk-kms@2.16.5",
+        "pkg:pypi/altgraph@0.17.5",
+        "pkg:pypi/annotated-doc@0.0.5",
+        "pkg:pypi/anyio@4.14.2",
+        "pkg:pypi/certifi@2026.7.22",
+        "pkg:pypi/cffi@2.1.1",
+        "pkg:pypi/charset-normalizer@3.5.1",
+        "pkg:pypi/click@8.4.2",
+        "pkg:pypi/colorama@0.4.6",
+        "pkg:pypi/crcmod@1.7",
+        "pkg:pypi/cryptography@50.0.0",
+        "pkg:pypi/decorator@5.3.1",
+        "pkg:pypi/editdistance@0.8.1",
+        "pkg:pypi/filelock@3.32.3",
+        "pkg:pypi/fsspec@2026.7.0",
+        "pkg:pypi/h11@0.16.0",
+        "pkg:pypi/hf-xet@1.6.0",
+        "pkg:pypi/httpcore@1.0.9",
+        "pkg:pypi/httpx@0.28.1",
+        "pkg:pypi/huggingface-hub@1.28.0",
+        "pkg:pypi/idna@3.19",
+        "pkg:pypi/imageio-ffmpeg@0.5.1",
+        "pkg:pypi/iniconfig@2.3.0",
+        "pkg:pypi/jaconv@0.5.0",
+        "pkg:pypi/jinja2@3.1.6",
+        "pkg:pypi/jmespath@1.1.0",
+        "pkg:pypi/joblib@1.5.3",
+        "pkg:pypi/kaldiio@2.18.1",
+        "pkg:pypi/lazy-loader@0.5",
+        "pkg:pypi/llvmlite@0.49.0",
+        "pkg:pypi/markdown-it-py@4.2.0",
+        "pkg:pypi/markupsafe@3.0.3",
+        "pkg:pypi/mdurl@0.1.2",
+        "pkg:pypi/mpmath@1.3.0",
+        "pkg:pypi/msgpack@1.2.1",
+        "pkg:pypi/narwhals@2.25.0",
+        "pkg:pypi/networkx@3.6.1",
+        "pkg:pypi/numba@0.67.0",
+        "pkg:pypi/numpy@2.5.2",
+        "pkg:pypi/opencc-python-reimplemented@0.1.7",
+        "pkg:pypi/oss2@2.19.1",
+        "pkg:pypi/packaging@26.3",
+        "pkg:pypi/pefile@2023.2.7",
+        "pkg:pypi/pillow@12.2.0",
+        "pkg:pypi/pip@26.2.1",
+        "pkg:pypi/platformdirs@4.11.3",
+        "pkg:pypi/pluggy@1.6.0",
+        "pkg:pypi/pooch@1.9.0",
+        "pkg:pypi/protobuf@7.36.0",
+        "pkg:pypi/psutil@7.0.0",
+        "pkg:pypi/pyclipper@1.4.0",
+        "pkg:pypi/pycparser@3.0",
+        "pkg:pypi/pycryptodome@3.23.0",
+        "pkg:pypi/pygments@2.21.0",
+        "pkg:pypi/pyinstaller@6.14.2",
+        "pkg:pypi/pyinstaller-hooks-contrib@2026.6",
+        "pkg:pypi/pynndescent@0.6.0",
+        "pkg:pypi/pyside6@6.9.1",
+        "pkg:pypi/pyside6@6.9.1",
+        "pkg:pypi/pyside6-addons@6.9.1",
+        "pkg:pypi/pyside6-addons@6.9.1",
+        "pkg:pypi/pyside6-essentials@6.9.1",
+        "pkg:pypi/pyside6-essentials@6.9.1",
+        "pkg:generic/python@3.12.14",
+        "pkg:pypi/pywin32-ctypes@0.2.3",
+        "pkg:pypi/pyyaml@6.0.3",
+        "pkg:pypi/regex@2026.7.19",
+        "pkg:pypi/reportlab@4.4.10",
+        "pkg:pypi/requests@2.33.0",
+        "pkg:pypi/rich@15.0.0",
+        "pkg:pypi/safetensors@0.8.0",
+        "pkg:pypi/scikit-learn@1.9.0",
+        "pkg:pypi/setuptools@81.0.0",
+        "pkg:pypi/shapely@2.1.2",
+        "pkg:pypi/shellingham@1.5.4",
+        "pkg:pypi/sherpa-onnx-core@1.13.7",
+        "pkg:pypi/sherpa-onnx@1.13.7",
+        "pkg:pypi/shiboken6@6.9.1",
+        "pkg:pypi/shiboken6@6.9.1",
+        "pkg:pypi/six@1.17.0",
+        "pkg:pypi/soundfile@0.14.0",
+        "pkg:pypi/soxr@1.1.0",
+        "pkg:pypi/sympy@1.14.0",
+        "pkg:pypi/tensorboardx@2.6.5",
+        "pkg:pypi/threadpoolctl@3.6.0",
+        "pkg:pypi/tiktoken@0.14.0",
+        "pkg:pypi/tkinterdnd2@0.4.2",
+        "pkg:pypi/tqdm@4.70.0",
+        "pkg:pypi/typer@0.27.1",
+        "pkg:pypi/typing-extensions@4.16.0",
+        "pkg:pypi/umap-learn@0.5.12",
+        "pkg:pypi/urllib3@2.7.0"
+      ]
+    },
+    {
+      "ref": "pkg:pypi/aliyun-python-sdk-core@2.16.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/aliyun-python-sdk-kms@2.16.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/altgraph@0.17.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/annotated-doc@0.0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/anyio@4.14.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/certifi@2026.7.22",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cffi@2.1.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/charset-normalizer@3.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/click@8.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/colorama@0.4.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/crcmod@1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/cryptography@50.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/decorator@5.3.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/editdistance@0.8.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/filelock@3.32.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/fsspec@2026.7.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/h11@0.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/hf-xet@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpcore@1.0.9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/httpx@0.28.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/huggingface-hub@1.28.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/idna@3.19",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/imageio-ffmpeg@0.5.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/iniconfig@2.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jaconv@0.5.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jinja2@3.1.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/jmespath@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/joblib@1.5.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/kaldiio@2.18.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/lazy-loader@0.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/llvmlite@0.49.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markdown-it-py@4.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/markupsafe@3.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mdurl@0.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/mpmath@1.3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/msgpack@1.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/narwhals@2.25.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/networkx@3.6.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/numba@0.67.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/numpy@2.5.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/opencc-python-reimplemented@0.1.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/oss2@2.19.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/packaging@26.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pefile@2023.2.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pillow@12.2.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pip@26.2.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/platformdirs@4.11.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pluggy@1.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pooch@1.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/protobuf@7.36.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/psutil@7.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyclipper@1.4.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycparser@3.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pycryptodome@3.23.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pygments@2.21.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyinstaller@6.14.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyinstaller-hooks-contrib@2026.6",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pynndescent@0.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyside6@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyside6@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyside6-addons@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyside6-addons@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyside6-essentials@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyside6-essentials@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:generic/python@3.12.14",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pywin32-ctypes@0.2.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/pyyaml@6.0.3",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/regex@2026.7.19",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/reportlab@4.4.10",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/requests@2.33.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/rich@15.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/safetensors@0.8.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/scikit-learn@1.9.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/setuptools@81.0.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/shapely@2.1.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/shellingham@1.5.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sherpa-onnx-core@1.13.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sherpa-onnx@1.13.7",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/shiboken6@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/shiboken6@6.9.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/six@1.17.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/soundfile@0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/soxr@1.1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/sympy@1.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tensorboardx@2.6.5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/threadpoolctl@3.6.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tiktoken@0.14.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tkinterdnd2@0.4.2",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/tqdm@4.70.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typer@0.27.1",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/typing-extensions@4.16.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/umap-learn@0.5.12",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:pypi/urllib3@2.7.0",
+      "dependsOn": []
+    }
+  ],
+  "properties": [
+    {
+      "name": "l-one:forbidden-runtime-hits",
+      "value": "[]"
+    },
+    {
+      "name": "l-one:unknown-license-components",
+      "value": "[]"
+    },
+    {
+      "name": "l-one:missing-license-text-components",
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "product": "L-1 File To Text",
+  "publisher": "L-One",
+  "version": "2.1.0 公开内测版",
+  "artifacts": [
+    {
+      "name": "CHANGELOG.md",
+      "bytes": 9866,
+      "sha256": "19213c308d3941dd7276cbd47a53b5dce21712d7c569130de128eb9e7c8b78c1"
+    },
+    {
+      "name": "L-1 File To Text Setup v2.1.0 公开内测版.exe",
+      "bytes": 146969357,
+      "sha256": "b4cb233299b9660eac81f702a7215da13401aefb79d6591eb651c3f47cda3406"
+    },
+    {
+      "name": "L-ONE-PROGRAM-RIGHTS.md",
+      "bytes": 860,
+      "sha256": "9c89dabb288db66b5ab1d90904bc726babc90947d5d728c45b9dd209b61378c8"
+    },
+    {
+      "name": "LICENSES/CTRANSLATE2-MIT.txt",
+      "bytes": 1115,
+      "sha256": "54aa79d9fe3c09e67a16dcd95b9e88676405a6ec174efda31036983cf7672ecb"
+    },
+    {
+      "name": "LICENSES/GPL-3.0.txt",
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "name": "LICENSES/LGPL-3.0.txt",
+      "bytes": 7652,
+      "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+    },
+    {
+      "name": "LICENSES/MPL-2.0.txt",
+      "bytes": 16727,
+      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+    },
+    {
+      "name": "LICENSES/PYINSTALLER-COPYING.txt",
+      "bytes": 32138,
+      "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245"
+    },
+    {
+      "name": "LICENSES/TOKENIZERS-APACHE-2.0.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "name": "LICENSES/TQDM-LICENCE.txt",
+      "bytes": 1985,
+      "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de"
+    },
+    {
+      "name": "MODEL_SOURCES.md",
+      "bytes": 1415,
+      "sha256": "ab3da1dbe0a090ae48e9d7b623a818e1d10e3d02ff4e674e5acfebad3fb8b632"
+    },
+    {
+      "name": "PRIVACY.md",
+      "bytes": 1279,
+      "sha256": "65e97c4e0140d1910fbe0377205ab59471607b835541f5355dafedfef785f912"
+    },
+    {
+      "name": "README.md",
+      "bytes": 3252,
+      "sha256": "4031777d1e0bae3d5203e7516020255e29037db0dd44d3266ff9f8323cb4c69f"
+    },
+    {
+      "name": "SBOM.json",
+      "bytes": 133430,
+      "sha256": "18edb8e95656b21f2e4ea6d6e6834a52164ae7a721b310dad557cd08e4ea5816"
+    },
+    {
+      "name": "THIRD_PARTY_NOTICES.md",
+      "bytes": 3582,
+      "sha256": "c37fd7efe48d5c64fb71cbdb81af47610faecbbc2a3b6057dc14fb7671d81f83"
+    }
+  ]
+}

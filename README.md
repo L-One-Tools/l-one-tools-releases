@@ -35,7 +35,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\L-1 File To Text Setup v2.0.8.exe
 
 | 工具 | 版本 | 支持范围 | 版本资料 | 下载 |
 |---|---:|---|---|---|
-| L-1 File To Text | 2.1.0 公开内测版 | Windows 10 19042 隔离验证；Windows 11 与真实用户安装反馈待收集 | [2.1.0 版本资料](l-1-file-to-text/2.1.0_2026-09-04/) | 发布后以对应 Release 为准 |
+| L-1 File To Text | 2.1.0 公开内测版 | Windows 10 19042 隔离验证；Windows 11 与真实用户安装反馈待收集 | [2.1.0 版本资料](l-1-file-to-text/2.1.0_2026-09-04/) | [GitHub Release](https://github.com/L-One-Tools/l-one-tools-releases/releases/tag/l-1-file-to-text-v2.1.0-public-beta) |
 
 公开内测不是稳定版。大批量真实测试仍在进行；请先阅读版本资料中的首次资源配置、已知限制、隐私与回退说明。
 

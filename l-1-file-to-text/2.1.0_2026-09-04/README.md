@@ -45,3 +45,7 @@ Get-FileHash -Algorithm SHA256 -LiteralPath '.\L-1 File To Text Setup v2.1.0 公
 
 隐私和联网边界见 `PRIVACY.md`；模型与组件边界见 `MODEL_SOURCES.md`；第三方许可见 `THIRD_PARTY_NOTICES.md` 与 `SBOM.json`。
 
+## 反馈
+
+请通过 [v2.1.0 公开内测版反馈](https://github.com/L-One-Tools/l-one-tools-releases/issues/4) 提交已脱敏的问题说明。不要提交原始音视频、完整转写、模型目录、Token、密钥、私人资料或未脱敏日志。
+
